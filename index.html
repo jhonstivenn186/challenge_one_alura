@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/dark-mode.css">
+    <link rel="shortcut icon" href="assets/img/black_password.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/182edc6532.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.3/dist/sweetalert2.min.css" rel="stylesheet"> 
+    <title>Encriptador de texto</title>
+  </head>
+  <body>
+    <header>
+      <div class="content-header">
+        <div class="header-content">
+          <div class="page-icon">
+            <img src="assets/img/password.png" alt="logo de la pagina">
+          </div> 
+          <div class="slogan">
+            <div class="typing-slogan">
+              Encriptador de texto
+            </div>
+          </div> 
+          <div class="switch-button">
+            <div class="container-social-darkMode">
+              <button class="switch-mode" id="switch-mode">
+                <span><i class="fa-solid fa-moon .icon-background2"></i></span>
+                <span><i class="fa-solid fa-sun .icon-background3"></i></span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div id="main">
+        <div>
+           <div class="contente__alura">
+           </div>
+         </div> 
+         <div class="container">
+           <textarea name="textEncriptar" id="areaEncriptar" class="areaEncriptar" placeholder="Ingrese el texto aquí" autofocus></textarea>
+           <div class="alerta__text">
+            <div class="img__alert">
+              <i class="fa-solid fa-circle-exclamation icon-background1"></i>
+            </div>
+             <p class="texto">Solo letras minúsculas y sin acentos</p>
+           </div>
+           <div class="botones">
+             <button class="botonStyle btn__encriptar">Encriptar</button>
+             <button class="botonStyle btn__desencriptar">Desencriptar</button>
+           </div>
+         </div>
+         <aside class="cuadro_s">
+           <div id="frame">
+             <div id="card">
+               <div id="light">
+                 <div class="cuadro">
+                    <textarea name="texto encriptado"class="areaEncriptar tex_encriptado texto ocultar"></textarea>
+                    <img src="assets/img/encriptar.gif" alt="imagen de Muñeco" class="img__munieco elements"/>
+                    <p class="texto text__bold text__1 elements">¡Ningún mensaje fue encontrado!</p>
+                    <p class="texto text__1 elements">
+                      Ingresa el texto que desees encriptar o desencriptar.
+                    </p>
+                    <p class="copied-text-message ocultar">¡Texto copiado!</p>
+                    <button class="botonStyle btn__desencriptar boton__aside ocultar">Copiar texto</button>
+                 </div>
+               </div>
+             </div>
+           </div> 
+         </aside>
+       </div>
+    </main>
+    <footer>
+      <div class="content-footer">
+          <p>
+            Coded with 
+            <i class="fa fa-heart" aria-hidden="true"></i> by
+            <a href="https://github.com/jhonstivenn186" target="_blank">
+              J.Stiven
+            </a><br>
+            Copyright © 2023
+          </p>
+      </div>
+    </footer>
+  </body >
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="assets/js/script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.3/dist/sweetalert2.all.min.js"></script>
+</html>

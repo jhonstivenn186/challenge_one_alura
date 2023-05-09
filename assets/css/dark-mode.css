@@ -1,0 +1,71 @@
+body.dark {
+  background-color: #20222e;
+}
+
+body.dark #main {
+  background-color: #20222e;
+}
+
+body.dark .switch-mode {
+  background: #ffffff;
+}
+
+body.dark .container {
+  background-color: transparent;
+}
+
+body.dark .btn__desencriptar {
+  color: var(--colorAlura);
+  border-color: var(--colorAlura);
+  background-color: white;
+}
+
+::placeholder {
+  color: #5e19dd8f;
+}
+
+body.dark ::placeholder {
+  color: rgba(255, 255, 255, 0.678);
+}
+
+body.dark .cuadro_s {
+  box-shadow: none;
+}
+
+body.dark .areaEncriptar {
+  color: #ffffff;
+  background: none;
+  border: 0;
+  resize: none;
+  font-family: var(--textSerif);
+  font-size: 25px;
+  width: 90%;
+  height: 65%;
+}
+
+body.dark .texto {
+  display: inline-block;
+  color: #43AED9;;
+}
+
+body.dark .icon-background1 {
+  color: white;
+}
+
+body.dark .boton__aside {
+  margin: 0 auto;
+  width: 80%;
+  background-color:#0C3C59;
+  padding: 15px 10px;
+  color: white;
+}
+
+body.dark .ocultar {
+  display: none;
+}
+
+body.dark .text__bold {
+  font-weight: bold;
+  color: #0C3C59;
+  text-align: center;
+}
